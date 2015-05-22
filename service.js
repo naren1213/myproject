@@ -9,6 +9,8 @@ angular.module('F1FeederApp.services', []).
         url: 'http://ergast.com/api/f1/2013/driverStandings.json?callback=JSON_CALLBACK'
       });
     }
+    
+    
 
     return ergastAPI;
   });
